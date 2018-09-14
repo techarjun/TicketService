@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.techarjun.codingchallenge-TicketingSystem_main" target="1.8" />
+      <module name="com.techarjun.codingchallenge-TicketingSystem_test" target="1.8" />
+      <module name="com.walmartlabs.codingchallenge-TicketingSystem_main" target="1.8" />
+      <module name="com.walmartlabs.codingchallenge-TicketingSystem_test" target="1.8" />
+      <module name="TicketingSystem_main" target="1.8" />
+      <module name="TicketingSystem_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

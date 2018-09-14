@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.walmartlabs.codingchallenge.ticketing'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+mainClassName = 'com.walmartlabs.codingchallenge.ticketing.client.Main'
+
+
+repositories {
+    mavenCentral()
+}
+run{
+    standardInput = System.in
+}
+
+jar {
+    baseName = 'ticketing'
+    version =  '0.1.0'
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.1'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.1.1'
+    testCompile "org.hamcrest:java-hamcrest:2.0.0.0"
+    compile "com.google.guava:guava:23.1-jre"
+    compile 'org.junit.jupiter:junit-jupiter-params:5.1.1'
+}
+
+test {
+    useJUnitPlatform()
+}
