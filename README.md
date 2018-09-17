@@ -64,4 +64,7 @@ Picking the best seat on behalf of customer needs some design ideas.
   ## How to Run 
    - Run with gradle clean build or gradle clean build test. 
    - There is a stress test included for 5000 seats.
-   - I'll update more details for running this later today.
+   - Get the repository on to a folder on your machine
+   - Build Command:   ./gradlew build (Mac)         or ./gradle build (windows)
+   - Run Console App:  ./gradlew run  (Mac)         or ./gradle (windows)
+   - Run Tests: ./gradlew clean test --info (Mac)   or ./gradle clean test --info (windows)
